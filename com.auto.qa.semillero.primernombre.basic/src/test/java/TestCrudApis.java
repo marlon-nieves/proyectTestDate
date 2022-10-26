@@ -5,8 +5,6 @@ import org.junit.jupiter.api.Test;
 public class TestCrudApis {
     @Test
     public void PostLoginUnknown(){
-        /**
-         * ejercicio*/
         String response = RestAssured
                 .given()
                 .contentType(ContentType.JSON)
